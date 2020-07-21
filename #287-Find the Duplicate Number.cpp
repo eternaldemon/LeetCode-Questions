@@ -13,6 +13,7 @@ public:
         for(int i=0;i<nums.size();i++){
             if(m[nums[i]]>=2){
                 result=nums[i];
+                break;
             }
         }
         return result;
